@@ -1,6 +1,6 @@
 {
   "name": "angular-navigation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular Navigation Component",
   "main": "./dist/index.js",
   "scripts": {
