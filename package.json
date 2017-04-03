@@ -1,6 +1,6 @@
 {
   "name": "angular-navigation",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Angular Navigation Component",
   "main": "./dist/index.js",
   "typings": "index.ts",
@@ -27,6 +27,7 @@
   },
   "files": [
     "src/*",
+    "index.ts",
     "README.md"
   ],
   "homepage": "https://github.com/xx4159/angular-navigation#readme",
