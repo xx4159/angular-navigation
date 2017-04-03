@@ -1,12 +1,13 @@
 {
   "name": "angular-navigation",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Angular Navigation Component",
   "main": "./dist/index.js",
+  "typings": "index.ts",
   "scripts": {
     "build": "ngc -p tsconfig.json",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
-    "prepublish": "tsc",
+    "prepublish": "npm run build",
     "tsc": "tsc"
   },
   "repository": {
@@ -24,6 +25,10 @@
   "bugs": {
     "url": "https://github.com/xx4159/angular-navigation/issues"
   },
+  "files": [
+    "src/*",
+    "README.md"
+  ],
   "homepage": "https://github.com/xx4159/angular-navigation#readme",
   "devDependencies": {
     "@angular/common": "^4.0.0",
