@@ -21,7 +21,7 @@
   ],
   "angularCompilerOptions": {
     "strictMetadataEmit": true,
-    "genDir": "factories",
+    "genDir": "./factories",
     "debug": true
   }
 }
